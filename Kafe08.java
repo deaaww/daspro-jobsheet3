@@ -32,5 +32,7 @@ public class Kafe08 {
         System.out.println("Total harga (byte): Rp " + totalByte);
         System.out.println("Nominal bayar: Rp " + nominalBayar);
         System.out.println("Nominal bayar (int): Rp " + nominalInt);
+
+        input.close();
     }
 }
